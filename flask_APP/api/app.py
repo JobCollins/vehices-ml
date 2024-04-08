@@ -3,7 +3,7 @@ from sklearn.externals import joblib
 import numpy as np
 import json
 
-gbr = joblib.load('model.pkl')
+gbr = joblib.load('api/model.pkl')
 
 app = Flask(__name__)
 
